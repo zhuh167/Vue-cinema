@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue Cinema</title>
+  <link rel="icon" href="images/icon.svg">
+  <link rel="stylesheet" href="style/all.min.css">
+  <link rel="stylesheet" href="style/fonts.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__prevnav">
+      <i class="fa-sharp fa-solid fa-film header__prenav-icon"></i>
+      <span class="header__prenav-text">See no special offer restrictions</span>
+    </div>
+    <nav class="header__nav">
+      <div class="container">
+        <div class="header__nav-container">
+          <a href="#" class="logo">
+            <img src="images/logo.svg" alt="">
+            <span class="logo__span">CINEMAS</span>
+          </a>
+          <ul class="header__nav-list">
+            <li><a href="#films" class="header__nav-link">Films</a></li>
+            <li><a href="#serials" class="header__nav-link">Serials</a></li>
+            <li><a href="#cartoons" class="header__nav-link">Cartoons</a></li>
+            <li><a href="#collections" class="header__nav-link">Collections</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="main__content">
+      <img src="images/bg.jpg" alt="" class="main__content-img">
+      <div class="container">
+        <div class="main__content-container">
+          <h1 class="main__content-title">Kong: Skull Island</h1>
+          <p class="main__content-text">The film takes the viewer to the 70s of the last century. The protagonist organizes an expedition to the Skull island, always covered in fog, on which King Kong was once caught to find the missing brother and some mysterious substance. During...</p>
+          <div class="main__content-btns">
+            <a href="#" class="main__content-btn  btn">Watch now</a>
+            <a href="#" class="main__content-btn  btn">Download</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__films" id="films">
+        <div class="container">
+            <h2 class="title">films</h2>
+            <div class="main__films-box">
+              <div class="main__films-item">
+                <img src="images/film1.jpg" alt="" class="main__films-item-img">
+                <i class="fa-solid fa-play main__films-item-play"></i>
+                <time class="main__films-item-time">2:14:33</time>
+                <h2 class="main__films-item-title">Black Panther</h2>
+                <p class="main__films-item-text">At first glance, you can decide that Wakanda is an ordinary territory of wild Africa, but this is not so. Here, in the bowels of the desert lands, there are hidden deposits of a unique metal capable of absorbing...</p>
+              </div>
+              <div class="main__films-item">
+                <img src="images/film2.jpg" alt="" class="main__films-item-img">
+                <i class="fa-solid fa-play main__films-item-play"></i>
+                <time class="main__films-item-time">2:32:13</time>
+                <h2 class="main__films-item-title">The Dark Knight</h2>
+                <p class="main__films-item-text">Batman raises stakes in the war on crime. With the help of Lieutenant Jim Gordon and Attorney Harvey Dent, he intends to clear the streets of crime that is poisoning the city. The cooperation is effective, but soon they...</p>
+              </div>
+              <div class="main__films-item">
+                <img src="images/film3.jpg" alt="" class="main__films-item-img">
+                <i class="fa-solid fa-play main__films-item-play"></i>
+                <time class="main__films-item-time">1:53:45</time>
+                <h2 class="main__films-item-title">The Gentlemen</h2>
+                <p class="main__films-item-text">One cunning American, from his student years, had been selling drugs, and now he came up with a scheme of illegal enrichment using the estates of an impoverished English aristocracy and made a very good fortune on ...</p>
+              </div>
+              <div class="main__films-item">
+                <img src="images/film4.jpg" alt="" class="main__films-item-img">
+                <i class="fa-solid fa-play main__films-item-play"></i>
+                <time class="main__films-item-time">2:58:20</time>
+                <h2 class="main__films-item-title">The Lord of the...</h2>
+                <p class="main__films-item-text">Tales of Middle-earth is a chronicle of the Great War for the Ring, a war that lasted more than one thousand years. The one who owned the Ring received power over all living creatures, but was obliged to serve evil...</p>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="main__intro">
+        <div class="main__intro-video">
+          <video autoplay muted src="video/1.mp4"></video>
+        </div>
+        <div class="container">
+          <div class="main__intro-box">
+              <img src="images/intro.png" alt="" class="main__intro-img">
+              <p class="main__intro-text">After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the past. The Red Room again made itself felt - a program to create Widows - professional killers and spies - just like her. Natasha decides once and for all to deal with people whose efforts she herself became a Widow.</p>
+              <a href="#" class="main__intro-btn  btn">Watch now</a>
+          </div>
+        </div>
+    </section>
+    <section class="main__coll" id="collections">
+      <div class="container">
+        <h2 class="title">Collections</h2>
+        <div class="main__coll-box">
+          <div class="main__coll-item">
+            <img src="images/coll1.jpg" alt="">
+            <div class="main__coll-info">
+              <i class="fa-solid fa-play main__films-item-play"></i>
+              <h2 class="main__coll-title">All Marvel Films</h2>
+            </div>
+          </div>
+          <div class="main__coll-item">
+            <img src="images/coll2.jpg" alt="">
+            <div class="main__coll-info">
+              <i class="fa-solid fa-play main__films-item-play"></i>
+              <h2 class="main__coll-title">Fast and the Furious</h2>
+            </div>
+          </div>
+          <div class="main__coll-item">
+            <img src="images/coll3.jpg" alt="">
+            <div class="main__coll-info">
+              <i class="fa-solid fa-play main__films-item-play"></i>
+              <h2 class="main__coll-title">Star Wars</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__series" id="serials">
+        <div class="container">
+          <h2 class="title">Series</h2>
+          <div class="main__series-box">
+            <div class="main__series-item">
+              <img src="images/got.jpg" alt="" class="main__series-img">
+              <h2 class="main__series-title">Game of Thrones</h2>
+              <p class="main__series-text">The time of prosperity is drawing to a close, and the summer, which lasted almost a decade, is dying away. Around the center of power of the Seven Kingdoms, the Iron Throne, a conspiracy is ripening, and during this difficult time, the king decides to seek support from his youth friend Eddard Stark. In a world where everyone - from the king to the mercenary - is eager for power, intrigues and is ready to stick a knife in the back, there is ...</p>
+              <a href="#" class="btn">Watch now</a>
+            </div>
+            <div class="main__series-item">
+              <img src="images/wanda.png" alt="" class="main__series-img">
+              <i class="fa-solid fa-play main__films-item-play"></i>
+              <h3 class="main__series-title">Wanda Vision</h3>
+            </div>
+            <div class="main__series-item">
+              <img src="images/flash.jpg" alt="" class="main__series-img">
+              <i class="fa-solid fa-play main__films-item-play"></i>
+              <h3 class="main__series-title">The Flash</h3>
+            </div>
+            <div class="main__series-item">
+              <img src="images/great.jpg" alt="" class="main__series-img">
+              <i class="fa-solid fa-play main__films-item-play"></i>
+              <h3 class="main__series-title">The Great</h3>
+            </div>
+            <div class="main__series-item">
+              <img src="images/gotem.jpg" alt="" class="main__series-img">
+              <i class="fa-solid fa-play main__films-item-play"></i>
+              <h3 class="main__series-title">GOTHAM</h3>
+            </div>
+            <div class="main__series-item">
+              <img src="images/witcher.jpg" alt="" class="main__series-img">
+              <i class="fa-solid fa-play main__films-item-play"></i>
+              <h3 class="main__series-title">The witcher</h3>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <div class="footer__box-left">
+          <img src="images/googplay.png" alt="">
+          <img src="images/appstore.png" alt="">
+        </div>
+        <div class="footer__box-right">
+          <span class="footer__box-text">© PROWEB. В целях обучения 2021</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
